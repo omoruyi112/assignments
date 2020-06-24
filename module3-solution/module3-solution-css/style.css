@@ -1,1 +1,12 @@
-
+body{background color:white;overflow:auto;}
+.navbar-brand p{color:black;font-weight:bold;}
+#nav-list a{text-align:center;color:black;border:1px solid black;margin:0;}
+#nav-list a:hover{background:#e7e7e7;}
+#nav-list a span{font-size:1.8em;}
+#header-nav{background-color:gray;}
+#collapsable-nav{background-color:white;}
+.body-note p{color:black;margin:10px;}
+.body-note{background-color:gray;height:1000px;}
+@media (max-width:767px) {.body-note{color:black;margin:30px;}
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{border:1px solid black;}
